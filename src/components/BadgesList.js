@@ -15,7 +15,7 @@ function useSearchBadget(badges) {
     setfilteredBadges(res);
   }, [query, badges]);
 
-  return [query, setQuery, filteredBadges];
+  return [query,setQuery,filteredBadges];
 }
 
 function BadgesList(props) {
@@ -57,7 +57,7 @@ function BadgesList(props) {
         </ul>
       ) : (
         <div id="badge_info">
-          <h1>Not Badges were found..</h1>
+          <h1>Not Badges were found...</h1>
         </div>
       )}
     </React.Fragment>
