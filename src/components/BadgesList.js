@@ -7,6 +7,7 @@ import Gravatar from "./Gravatar";
 function useSearchBadget(badges) {
   const [query, setQuery] = useState("");
   const [filteredBadges, setfilteredBadges] = useState(badges);
+  let a=1;
 
   useMemo(() => {
     const res = badges.filter(badge => {
