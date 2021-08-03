@@ -1,0 +1,25 @@
+
+
+
+.navbar-cont{
+    background-color: #1C3643;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.fw-bold,.fw-light{
+    color: white;
+}
+
+.navbar-cont img{
+    margin:0 0.3em 0 1.5em;
+}
+
+span{
+    text-decoration:none;
+    display: inline-block;
+}
+

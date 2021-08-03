@@ -1,0 +1,85 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0 !important;
+
+}
+
+.search_form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search_form .form-control {
+    width: 50% !important;
+    margin: 0.5em 0 1.5em 0;
+}
+
+.form_label {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+}
+
+li {
+    background-color: #ffff;
+    width: 50%;
+    height: auto;
+    margin: 1em 0;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 1px 5px 5px 4px rgb(223, 219, 219);
+
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+#badge_name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#text {
+    margin: 1em 0;
+}
+
+#img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 1em;
+}
+
+#img img {
+    border-radius: 50%;
+}
+
+#twitter-esp {
+    display: inline-flex;
+}
+
+
+#twitter-esp p {
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+
+@media (max-width: 700px) {
+
+    li {
+        width: 75%;
+        margin: 1em auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}

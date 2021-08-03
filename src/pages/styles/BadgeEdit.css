@@ -1,0 +1,51 @@
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.BE_hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../../images/stars.svg'), #1B1B25;
+    background-repeat: repeat;
+    height: 200px;
+}
+
+.BEimg-fluid {
+    padding: 0;
+    max-height: 115px;
+
+}
+
+.BEmenu_container {
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    margin: 1em 0;
+    flex-wrap: wrap;
+   
+}
+
+.BE_badge {
+    flex-grow: 0.1;
+}
+
+.BE_form {
+    flex-grow: 0.35;
+}
+
+.bi-twitter{
+    font-size: 18px;
+    color:dodgerblue
+}
+
+a{
+    height: auto !important;
+    width: auto !important;
+}

@@ -1,0 +1,29 @@
+.error_cont {
+    background: url('../../images/stars.svg'), #1B1B25;
+    background-repeat: repeat;
+    background-size: auto;
+    height: calc(100vh - 75px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    
+}
+
+.error_cont h1{
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.error_cont a{
+    font-weight: bold;
+    box-shadow: none;
+    border: none;
+}
+
+.error_cont img{
+    height: 200px;
+    width: 150px;
+}
