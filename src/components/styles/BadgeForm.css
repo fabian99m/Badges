@@ -7,11 +7,16 @@
     box-sizing: border-box;
 }
 
-.btn-primary{
-    padding: 0.4em 2.5em !important;
+.fa{
+    padding: 0.5em 2.5em !important;
     text-align: center;
     background-color: rgb(40, 182, 40) !important;
+    width: 100%;
+    border: none !important;
+    font-size: 20px !important;
+    color: white;
 }
+
 h1{
     font-family: 'Bebas Neue', cursive;
     font-weight: bolder;

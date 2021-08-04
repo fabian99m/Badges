@@ -70,13 +70,15 @@ class BadgeNew extends React.Component {
       return <PageLoading />;
     }
     return (
-      <React.Fragment>
+      <div class='cont_badgenew'>
+
+
 
         <div className="Badge_hero">
           <img className="img-fluid" src={head} alt="header" />
         </div>
 
-        <div className="menu_container">
+       
           <div className="badge">
             <Badge
               firstName={this.state.form.firstName || "FirstName"}
@@ -96,9 +98,9 @@ class BadgeNew extends React.Component {
             />
           </div>
 
-        </div>
+       
 
-      </React.Fragment>
+      </div>
     );
   }
 }

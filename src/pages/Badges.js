@@ -67,6 +67,7 @@ class Badges extends React.Component {
     return (
       <React.Fragment>
         <div className="badges_container">
+
           <div className="cont_btn">
             <Link id="badge_btn" className="btn btn-primary" to="/badges/new">
               New Badge
@@ -76,6 +77,7 @@ class Badges extends React.Component {
           <div className="badge_list">
             <BadgesList click={this.click} badges={this.state.data.reverse()} />
           </div>
+          
         </div>
       </React.Fragment>
     );

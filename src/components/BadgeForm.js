@@ -19,7 +19,7 @@ class BabgeForm extends React.Component {
       <React.Fragment>
         <h1>{this.props.title}</h1>
 
-        <form onSubmit={this.props.onSubmit}>
+        <form classname='form_cont' onSubmit={this.props.onSubmit}>
           <div className="mb-3">
             <label className="form-label">First name</label>
             <input
@@ -81,7 +81,7 @@ class BabgeForm extends React.Component {
             />
           </div>
 
-          <button  className="btn btn-primary fa">
+          <button className="fa">
             Save
           </button>
 

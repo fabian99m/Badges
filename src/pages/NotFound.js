@@ -11,7 +11,7 @@ class NotFound extends React.Component {
         <div className="error_cont">
             <img src={error} alt="" />
           <h1>PAGE NOT FOUND :(</h1>
-          <Link to='/' className='btn btn-primary'>BACK TO START please</Link>
+          <Link to='/' className='btn btn-primary'>BACK TO START</Link>
         </div> 
       </React.Fragment>
     );
